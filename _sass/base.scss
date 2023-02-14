@@ -5,5 +5,22 @@ $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-seri
 body {
   background: $backgroundColor;
   color: $bodyColor;
-  font-family: $bodyFont;
+  font-family: "Roboto";
+}
+
+.banner {
+  min-height: 3.25rem;
+  z-index: 30;
+  background-color: #ca514a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.8vmin;
+  color: white;
+}
+
+.hero-background {
+  background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(113, 135, 146, 0.2)), url("/assets/images/f3k.jpeg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
 }
