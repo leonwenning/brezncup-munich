@@ -19,12 +19,44 @@ body {
   color: white;
 }
 
-.hero-background {
-  background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(113, 135, 146, 0.2)), url($baseurl + "/assets/images/f3k.jpeg") no-repeat top center;
+.hero-bg {
+  background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(255, 255, 255, 0.2)), url($baseurl + "/assets/images/f3k.jpeg") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.logo {
+.hero-bg-image {
+  background-image: url($baseurl + "/assets/images/f3k.jpeg");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  isolation: isolate;
+  position: relative;
+}
 
+.hero-bg-image::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: white;
+  opacity: 0.3;
+}
+
+.hero-background {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+}
+.hero-background::before {
+  content: '';
+  background-image: url($baseurl + "/assets/images/f3k.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
