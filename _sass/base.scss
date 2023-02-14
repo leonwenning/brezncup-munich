@@ -20,7 +20,7 @@ body {
 }
 
 .hero-background {
-  background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(113, 135, 146, 0.2)), url("/assets/images/f3k.jpeg") no-repeat top center;
+  background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(113, 135, 146, 0.2)), url($baseurl + "/assets/images/f3k.jpeg") no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
 }
