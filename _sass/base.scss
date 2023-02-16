@@ -10,17 +10,18 @@ body {
 
 .banner {
   min-height: 3.25rem;
+  width: 100%;
   z-index: 30;
   background-color: #ca514a;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3.8vmin;
+  font-size: 1.2rem;
   color: white;
 }
 
 .hero-bg {
   background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(255, 255, 255, 0.2)), url($baseurl + "/assets/images/f3k.jpeg") no-repeat top center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
