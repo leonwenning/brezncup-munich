@@ -36,6 +36,14 @@
     </script>
   </head>
   <body>
+    <div class="banner">
+      <div class="columns">
+        <div class="column has-text-centered">
+          <h4>Registration is open. <a href="https://docs.google.com/spreadsheets/d/1V4i_e8lwXFv8ayS1F0zJwL1z5b240abOMPzCZBZb47Y/edit?usp=sharing"><span class="tag">List of Competitors</span></a></h4>
+          <p class="is-size-6-mobile">*** Number of competitors increased to 60 ***</p>
+        </div>
+      </div>
+    </div>
     <div class="container">
     <nav class="navbar is-white" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
@@ -62,21 +70,6 @@
     </nav>
     </div>
     {{ content }}
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <div class="columns">
-          <div class="column">
-            <img alt="Logo Brezncup Munich" class = "logo mt-6 footer-logo" src="assets/images/bcm_logo_bc_text.svg">
-            <h2>
-              <a class="mx-2 has-text-grey-dark" href="https://www.instagram.com/soaring_team_munich/"><i class="fa-brands fa-instagram"></i></a>
-              <a class="mx-2 has-text-grey-dark" href="mailto:brezncupmunich@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            </h2>
-            <p></p>
-            <p class="subtitle is-6"><i class="fa-solid fa-code"></i> with <i class="fa-solid fa-heart"></i> by Soaring Team Munich</p>
-            <p class="subtitle is-6">Logo design by Markus Rüdiger</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    {% include footer.html %}
   </body>
 </html>
