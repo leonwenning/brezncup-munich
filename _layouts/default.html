@@ -36,31 +36,7 @@
     </script>
   </head>
   <body>
-    <div class="container">
-    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https://brezncup-munich.de">
-          <img src="../assets/images/bcm_logo_bc_text.svg">
-        </a>
-        <a class="navbar-item">
-          Contest Information
-        </a>
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="about.html">
-            About us
-          </a>
-        </div>
-      </div>
-    </nav>
-    </div>
+    {% include navbar.html %}
     {{ content }}
     {% include footer.html %}
   </body>
