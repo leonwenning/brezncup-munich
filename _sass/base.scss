@@ -26,7 +26,7 @@ body {
 }
 
 .hero-bg {
-  background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(255, 255, 255, 0.2)), url($baseurl + "/assets/images/f3k.jpeg") no-repeat top center;
+  background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(255, 255, 255, 0.2)), url($baseurl + "/assets/images/Pilots_2023.jpeg") no-repeat bottom center;
   background-size: cover;
   background-attachment: scroll;
 }
@@ -78,4 +78,12 @@ body {
   border-radius: 50%;
   height: 200px;
   width: auto;
+}
+
+.sponsor-logo {
+  width: 150px;
+}
+
+.sponsor-logo-mobile {
+  width: 90px;
 }
