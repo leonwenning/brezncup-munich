@@ -8,6 +8,10 @@ Brezncup-Munich is a static webpage built with [Github Pages](https://pages.gith
 ### Quickstart
 Follow the [quickstart guide](https://jekyllrb.com/docs/) by Jekyll to install all required libraries.
 
+Install all required libraries:
+
+    $  bundle install
+
 Built the site and make it available on a local server:
 
     $ bundle exec jekyll serve
