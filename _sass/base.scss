@@ -26,9 +26,20 @@ body {
 }
 
 .hero-bg {
-  background: linear-gradient(to top, rgba(28, 49, 58, 0.3), rgba(255, 255, 255, 0.2)), url($baseurl + "/assets/images/Pilots_2023.jpeg") no-repeat bottom center;
-  background-size: cover;
-  background-attachment: scroll;
+
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  /** Simulationg background-size: cover */
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .footer-logo {
