@@ -6,8 +6,11 @@ Brezncup-Munich is a static webpage built with [Github Pages](https://pages.gith
 - CSS Framework: [Bulma](https://bulma.io/)
 
 ### Quickstart
-Follow the [quickstart guide](https://jekyllrb.com/docs/) by Jekyll to install all required libraries.
+#### Prerequisites
+1. Follow the [quickstart guide](https://jekyllrb.com/docs/) by Jekyll.
+2. The project uses [Bundler](https://rubygems.org/gems/bundler).
 
+#### Project setup
 Install all required libraries:
 
     $  bundle install
