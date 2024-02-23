@@ -113,3 +113,14 @@ video {
 .sponsor-logo-mobile {
   width: 90px;
 }
+
+.card {
+  height: 100%;
+}
+
+/* Custom CSS for mobile-only margin */
+@media screen and (max-width: 768px) {
+  .card {
+    margin: 20px;
+  }
+}
