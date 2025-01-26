@@ -1,5 +1,8 @@
 # [Brezncup-Munich](https://brezncup-munich.de)
 
+> **Note [26.01.25]**: This repository is no longer maintained and has been archived. The code is kept for reference purposes only.
+
+
 Brezncup-Munich is a static webpage built with [Github Pages](https://pages.github.com/).
 
 - Static site generator: [Jekyll](https://jekyllrb.com/)
